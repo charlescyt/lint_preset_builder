@@ -1,0 +1,1549 @@
+[
+    {
+        "name": "always_declare_return_types",
+        "description": "Declare method return types.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "always_put_control_body_on_new_line",
+        "description": "Separate the control structure expression from its statement.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "always_put_required_named_parameters_first",
+        "description": "Put required named parameters first.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "always_require_non_null_named_parameters",
+        "description": "Specify @required on named parameters without defaults.",
+        "type": "style",
+        "status": "deprecated",
+        "hasFix": true
+    },
+    {
+        "name": "always_specify_types",
+        "description": "Specify type annotations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "always_use_package_imports",
+        "description": "Avoid relative imports for files in lib/.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "annotate_overrides",
+        "description": "Annotate overridden members.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_annotating_with_dynamic",
+        "description": "Avoid annotating with dynamic when not required.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_bool_literals_in_conditional_expressions",
+        "description": "Avoid bool literals in conditional expressions.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_catches_without_on_clauses",
+        "description": "Avoid catches without on clauses.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_catching_errors",
+        "description": "Don’t explicitly catch Error or types that implement it.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_classes_with_only_static_members",
+        "description": "Avoid defining a class that contains only static members.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_double_and_int_checks",
+        "description": "Avoid double and int checks.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_dynamic_calls",
+        "description": "Avoid method calls or property accesses on a “dynamic” target.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_empty_else",
+        "description": "Avoid empty else statements.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_equals_and_hash_code_on_mutable_classes",
+        "description": "Avoid overloading operator == and hashCode on classes not marked @immutable.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_escaping_inner_quotes",
+        "description": "Avoid escaping inner quotes by converting surrounding quotes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_field_initializers_in_const_classes",
+        "description": "Avoid field initializers in const classes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_final_parameters",
+        "description": "Avoid final for parameter declarations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_function_literals_in_foreach_calls",
+        "description": "Avoid using forEach with a function literal.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_implementing_value_types",
+        "description": "Don’t implement classes that override ==.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_init_to_null",
+        "description": "Don’t explicitly initialize variables to null.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_js_rounded_ints",
+        "description": "Avoid JavaScript rounded ints.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_multiple_declarations_per_line",
+        "description": "Don’t declare multiple variables on a single line.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_null_checks_in_equality_operators",
+        "description": "Don’t check for null in custom == operators.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_positional_boolean_parameters",
+        "description": "Avoid positional boolean parameters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_print",
+        "description": "Avoid print calls in production code.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_private_typedef_functions",
+        "description": "Avoid private typedef functions.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_redundant_argument_values",
+        "description": "Avoid redundant argument values.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_relative_lib_imports",
+        "description": "Avoid relative imports for files in lib/.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_renaming_method_parameters",
+        "description": "Don’t rename parameters of overridden methods.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_return_types_on_setters",
+        "description": "Avoid return types on setters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_returning_null",
+        "description": "Avoid returning null from members whose return type is bool, double, int, or num.",
+        "type": "style",
+        "status": "deprecated",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_returning_null_for_future",
+        "description": "Avoid returning null for Future.",
+        "type": "error",
+        "status": "deprecated",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_returning_null_for_void",
+        "description": "Avoid returning null for void.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_returning_this",
+        "description": "Avoid returning this from methods just to enable a fluent interface.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_setters_without_getters",
+        "description": "Avoid setters without getters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_shadowing_type_parameters",
+        "description": "Avoid shadowing type parameters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_single_cascade_in_expression_statements",
+        "description": "Avoid single cascade in expression statements.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_slow_async_io",
+        "description": "Avoid slow async dart:io methods.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_type_to_string",
+        "description": "Avoid .toString() in production code since results may be minified.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "avoid_types_as_parameter_names",
+        "description": "Avoid types as parameter names.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_types_on_closure_parameters",
+        "description": "Avoid annotating types for function expression parameters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_unnecessary_containers",
+        "description": "Avoid unnecessary containers.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_unused_constructor_parameters",
+        "description": "Avoid defining unused parameters in constructors.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_void_async",
+        "description": "Avoid async functions that return void.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "avoid_web_libraries_in_flutter",
+        "description": "Avoid using web-only libraries outside Flutter web plugin packages.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "await_only_futures",
+        "description": "Await only futures.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "camel_case_extensions",
+        "description": "Name extensions using UpperCamelCase.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "camel_case_types",
+        "description": "Name types using UpperCamelCase.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "cancel_subscriptions",
+        "description": "Cancel instances of dart.async.StreamSubscription.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "cascade_invocations",
+        "description": "Cascade consecutive method invocations on the same reference.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "cast_nullable_to_non_nullable",
+        "description": "Don’t cast a nullable value to a non nullable type.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "close_sinks",
+        "description": "Close instances of dart.core.Sink.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "collection_methods_unrelated_type",
+        "description": "Invocation of various collection methods with arguments of unrelated types.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "combinators_ordering",
+        "description": "Sort combinator names alphabetically.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "comment_references",
+        "description": "Only reference in scope identifiers in doc comments.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "conditional_uri_does_not_exist",
+        "description": "Missing conditional import.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "constant_identifier_names",
+        "description": "Prefer using lowerCamelCase for constant names.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "control_flow_in_finally",
+        "description": "Avoid control flow in finally blocks.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "curly_braces_in_flow_control_structures",
+        "description": "DO use curly braces for all flow control structures.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "dangling_library_doc_comments",
+        "description": "Attach library doc comments to library directives.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "depend_on_referenced_packages",
+        "description": "Depend on referenced packages.",
+        "type": "pub",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "deprecated_consistency",
+        "description": "Missing deprecated annotation.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "deprecated_member_use_from_same_package",
+        "description": "Avoid using deprecated elements from within the package in which they are declared.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "diagnostic_describe_all_properties",
+        "description": "DO reference all public properties in debug methods.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "directives_ordering",
+        "description": "Adhere to Effective Dart Guide directives sorting conventions.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "discarded_futures",
+        "description": "Don’t invoke asynchronous functions in non-async blocks.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "do_not_use_environment",
+        "description": "Do not use environment declared variables.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "empty_catches",
+        "description": "Avoid empty catch blocks.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "empty_constructor_bodies",
+        "description": "Use ; instead of {} for empty constructor bodies.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "empty_statements",
+        "description": "Avoid empty statements.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "eol_at_end_of_file",
+        "description": "Put a single newline at end of file.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "exhaustive_cases",
+        "description": "Define case clauses for all constants in enum-like classes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "file_names",
+        "description": "Name source files using lowercase_with_underscores.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "flutter_style_todos",
+        "description": "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "hash_and_equals",
+        "description": "Always override hashCode if overriding ==.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "implementation_imports",
+        "description": "Don’t import implementation files from another package.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "implicit_call_tearoffs",
+        "description": "Explicitly tear-off call methods when using an object as a Function.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "implicit_reopen",
+        "description": "Don’t implicitly reopen classes.",
+        "type": "error",
+        "status": "experimental",
+        "hasFix": true
+    },
+    {
+        "name": "invalid_case_patterns",
+        "description": "Use case expressions that are valid in Dart 3.0.",
+        "type": "error",
+        "status": "experimental",
+        "hasFix": true
+    },
+    {
+        "name": "iterable_contains_unrelated_type",
+        "description": "Invocation of Iterable.contains with references of unrelated types.",
+        "type": "error",
+        "status": "deprecated",
+        "hasFix": false
+    },
+    {
+        "name": "join_return_with_assignment",
+        "description": "Join return statement with assignment when possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "leading_newlines_in_multiline_strings",
+        "description": "Start multiline strings with a newline.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "library_annotations",
+        "description": "Attach library annotations to library directives.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "library_names",
+        "description": "Name libraries using lowercase_with_underscores.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "library_prefixes",
+        "description": "Use lowercase_with_underscores when specifying a library prefix.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "library_private_types_in_public_api",
+        "description": "Avoid using private types in public APIs.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "lines_longer_than_80_chars",
+        "description": "Avoid lines longer than 80 characters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "list_remove_unrelated_type",
+        "description": "Invocation of remove with references of unrelated types.",
+        "type": "error",
+        "status": "deprecated",
+        "hasFix": false
+    },
+    {
+        "name": "literal_only_boolean_expressions",
+        "description": "Boolean expression composed only with literals.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "matching_super_parameters",
+        "description": "Use matching super parameter names.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "missing_whitespace_between_adjacent_strings",
+        "description": "Missing whitespace between adjacent strings.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "no_adjacent_strings_in_list",
+        "description": "Don’t use adjacent strings in list.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "no_default_cases",
+        "description": "No default cases.",
+        "type": "style",
+        "status": "experimental",
+        "hasFix": false
+    },
+    {
+        "name": "no_duplicate_case_values",
+        "description": "Don’t use more than one case with same value.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "no_leading_underscores_for_library_prefixes",
+        "description": "Avoid leading underscores for library prefixes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "no_leading_underscores_for_local_identifiers",
+        "description": "Avoid leading underscores for local identifiers.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "no_literal_bool_comparisons",
+        "description": "Don’t compare booleans to boolean literals.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "no_logic_in_create_state",
+        "description": "Don’t put any logic in createState.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "no_runtimeType_toString",
+        "description": "Avoid calling toString() on runtimeType.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "no_self_assignments",
+        "description": "Don’t assign a variable to itself.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "no_wildcard_variable_uses",
+        "description": "Don’t use wildcard parameters or variables.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "non_constant_identifier_names",
+        "description": "Name non-constant identifiers using lowerCamelCase.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "noop_primitive_operations",
+        "description": "Noop primitive operations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "null_check_on_nullable_type_parameter",
+        "description": "Don’t use null check on a potentially nullable type parameter.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "null_closures",
+        "description": "Do not pass null as an argument where a closure is expected.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "omit_local_variable_types",
+        "description": "Omit type annotations for local variables.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "one_member_abstracts",
+        "description": "Avoid defining a one-member abstract class when a simple function will do.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "only_throw_errors",
+        "description": "Only throw instances of classes extending either Exception or Error.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "overridden_fields",
+        "description": "Don’t override fields.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "package_api_docs",
+        "description": "Provide doc comments for all public APIs.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "package_names",
+        "description": "Use lowercase_with_underscores for package names.",
+        "type": "pub",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "package_prefixed_library_names",
+        "description": "Prefix library names with the package name and a dot-separated path.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "parameter_assignments",
+        "description": "Don’t reassign references to parameters of functions or methods.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_adjacent_string_concatenation",
+        "description": "Use adjacent strings to concatenate string literals.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_asserts_in_initializer_lists",
+        "description": "Prefer putting asserts in initializer lists.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_asserts_with_message",
+        "description": "Prefer asserts with message.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_collection_literals",
+        "description": "Use collection literals when possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_conditional_assignment",
+        "description": "Prefer using ??= over testing for null.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_const_constructors",
+        "description": "Prefer const with constant constructors.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_const_constructors_in_immutables",
+        "description": "Prefer declaring const constructors on @immutable classes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_const_declarations",
+        "description": "Prefer const over final for declarations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_const_literals_to_create_immutables",
+        "description": "Prefer defining constructors instead of static methods to create instances.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_constructors_over_static_methods",
+        "description": "Prefer defining constructors instead of static methods to create instances.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_contains",
+        "description": "Prefer double quotes where they won’t require escape sequences.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_double_quotes",
+        "description": "Prefer double quotes where they won’t require escape sequences.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_expression_function_bodies",
+        "description": "Use => for short members whose body is a single return statement.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_final_fields",
+        "description": "Private field could be final.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_final_in_for_each",
+        "description": "Prefer final in for-each loop variable if reference is not reassigned.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_final_locals",
+        "description": "Prefer final for variable declarations if they are not reassigned.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_final_parameters",
+        "description": "Prefer final for parameter declarations if they are not reassigned.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_for_elements_to_map_fromIterable",
+        "description": "Prefer ‘for’ elements when building maps from iterables.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_foreach",
+        "description": "Use forEach to only apply a function to all the elements.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_function_declarations_over_variables",
+        "description": "Use a function declaration to bind a function to a name.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_generic_function_type_aliases",
+        "description": "Prefer generic function type aliases.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_if_elements_to_conditional_expressions",
+        "description": "Prefer if elements to conditional expressions where possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_if_null_operators",
+        "description": "Prefer using if null operators.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_initializing_formals",
+        "description": "Use initializing formals when possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_inlined_adds",
+        "description": "Inline list item declarations where possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_int_literals",
+        "description": "Prefer int literals over double literals.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_interpolation_to_compose_strings",
+        "description": "Use interpolation to compose strings and values.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_is_empty",
+        "description": "Use isEmpty for Iterables and Maps.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_is_not_empty",
+        "description": "Use isNotEmpty for Iterables and Maps.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_is_not_operator",
+        "description": "Prefer is! operator.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_iterable_whereType",
+        "description": "Prefer to use whereType on iterable.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_mixin",
+        "description": "Prefer using mixins.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_null_aware_method_calls",
+        "description": "Prefer null aware method calls.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "prefer_null_aware_operators",
+        "description": "Prefer using null aware operators.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_relative_imports",
+        "description": "Prefer relative imports for files in lib/.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_single_quotes",
+        "description": "Only use double quotes for strings containing single quotes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_spread_collections",
+        "description": "Use spread collections when possible.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_typing_uninitialized_variables",
+        "description": "Prefer typing uninitialized variables and fields.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "prefer_void_to_null",
+        "description": "Don’t use the Null type, unless you are positive that you don’t want void.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "provide_deprecation_message",
+        "description": "Provide a deprecation message, via @Deprecated(“message”).",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "public_member_api_docs",
+        "description": "Document all public members.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "recursive_getters",
+        "description": "Property getter recursively returns itself.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "require_trailing_commas",
+        "description": "Use trailing commas for all function calls and declarations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "secure_pubspec_urls",
+        "description": "Use secure urls in pubspec.yaml.",
+        "type": "pub",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "sized_box_for_whitespace",
+        "description": "SizedBox for whitespace.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "sized_box_shrink_expand",
+        "description": "Use SizedBox shrink and expand named constructors.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "slash_for_doc_comments",
+        "description": "Prefer using /// for doc comments.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "sort_child_properties_last",
+        "description": "Sort child properties last in widget instance creations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "sort_constructors_first",
+        "description": "Sort constructor declarations before other members.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "sort_pub_dependencies",
+        "description": "Sort pub dependencies alphabetically.",
+        "type": "pub",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "sort_unnamed_constructors_first",
+        "description": "Sort unnamed constructor declarations first.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "test_types_in_equals",
+        "description": "Test type arguments in operator ==(Object other).",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "throw_in_finally",
+        "description": "Avoid throw in finally block.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "tighten_type_of_initializing_formals",
+        "description": "Tighten type of initializing formal.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "type_annotate_public_apis",
+        "description": "Type annotate public APIs.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "type_init_formals",
+        "description": "Don’t type annotate initializing formals.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "type_literal_in_constant_pattern",
+        "description": "Don’t use constant patterns with type literals.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unawaited_futures",
+        "description": "Future results in async function bodies must be awaited or marked unawaited using dart:async.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_await_in_return",
+        "description": "Unnecessary await keyword in return.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "unnecessary_brace_in_string_interps",
+        "description": "Avoid using braces in interpolation when not needed.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_breaks",
+        "description": "Don’t use explicit breaks when a break is implied.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_const",
+        "description": "Avoid const keyword.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_constructor_name",
+        "description": "Unnecessary .new constructor name.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_final",
+        "description": "Don’t use final for local variables.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_getters_setters",
+        "description": "Avoid wrapping fields in getters and setters just to be “safe”.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_lambdas",
+        "description": "Don’t create a lambda when a tear-off will do.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_late",
+        "description": "Don’t specify the late modifier when it is not needed.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_library_directive",
+        "description": "Avoid library directives unless they have documentation comments or annotations.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_new",
+        "description": "Unnecessary new keyword.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_null_aware_assignments",
+        "description": "Avoid null in null-aware assignment.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_null_aware_operator_on_extension_on_nullable",
+        "description": "Unnecessary null aware operator on extension on a nullable type.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "unnecessary_null_checks",
+        "description": "Unnecessary null checks.",
+        "type": "style",
+        "status": "experimental",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_null_in_if_null_operators",
+        "description": "Avoid using null in if null operators.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_nullable_for_final_variable_declarations",
+        "description": "Use a non-nullable type for a final variable initialized with a non-nullable value.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_overrides",
+        "description": "Don’t override a method to do a super method invocation with the same parameters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_parenthesis",
+        "description": "Unnecessary parentheses can be removed.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_raw_strings",
+        "description": "Unnecessary raw string.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_statements",
+        "description": "Avoid using unnecessary statements.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "unnecessary_string_escapes",
+        "description": "Remove unnecessary backslashes in strings.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_string_interpolations",
+        "description": "Unnecessary string interpolation.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_this",
+        "description": "Don’t access members with this unless avoiding shadowing.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unnecessary_to_list_in_spreads",
+        "description": "Unnecessary toList() in spreads.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unreachable_from_main",
+        "description": "Unreachable top-level members in executable libraries.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "unrelated_type_equality_checks",
+        "description": "Equality operator == invocation with references of unrelated types.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "unsafe_html",
+        "description": "Avoid unsafe HTML APIs.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_build_context_synchronously",
+        "description": "Do not use BuildContexts across async gaps.",
+        "type": "error",
+        "status": "experimental",
+        "hasFix": false
+    },
+    {
+        "name": "use_colored_box",
+        "description": "Use ColoredBox.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_decorated_box",
+        "description": "Use DecoratedBox.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_enums",
+        "description": "Use enums rather than classes that behave like enums.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_full_hex_values_for_flutter_colors",
+        "description": "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_function_type_syntax_for_parameters",
+        "description": "Use generic function type syntax for parameters.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_if_null_to_convert_nulls_to_bools",
+        "description": "Use if-null operators to convert nulls to bools.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_is_even_rather_than_modulo",
+        "description": "Prefer intValue.isOdd/isEven instead of checking the result of % 2.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_key_in_widget_constructors",
+        "description": "Use key in widget constructors.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_late_for_private_fields_and_variables",
+        "description": "Use late for private members with a non-nullable type.",
+        "type": "style",
+        "status": "experimental",
+        "hasFix": false
+    },
+    {
+        "name": "use_named_constants",
+        "description": "Use predefined named constants.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_raw_strings",
+        "description": "Use raw string to avoid escapes.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_rethrow_when_possible",
+        "description": "Use rethrow to rethrow a caught exception.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_setters_to_change_properties",
+        "description": "Use a setter for operations that conceptually change a property.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_string_buffers",
+        "description": "Use string buffers to compose strings.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_string_in_part_of_directives",
+        "description": "Use string in part of directives.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": true
+    },
+    {
+        "name": "use_super_parameters",
+        "description": "Use super-initializer parameters where possible.",
+        "type": "style",
+        "status": "experimental",
+        "hasFix": true
+    },
+    {
+        "name": "use_test_throws_matchers",
+        "description": "Use throwsA matcher instead of fail().",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "use_to_and_as_if_applicable",
+        "description": "Start the name of the method with to/_to or as/_as if applicable.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "valid_regexps",
+        "description": "Use valid regular expression syntax.",
+        "type": "error",
+        "status": "stable",
+        "hasFix": false
+    },
+    {
+        "name": "void_checks",
+        "description": "Don’t assign to void.",
+        "type": "style",
+        "status": "stable",
+        "hasFix": false
+    }
+]
